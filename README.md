@@ -1,3 +1,3 @@
 # ruby-dio
 
-Repositório para acompanhar a "Formação Ruby Developer" oferecida pela [DIO](https://web.dio.me/track/formacao-ruby-developer)
+This repository has been created to accompany my learning journey through the "Ruby Developer Training" program offered by [DIO](https://web.dio.me/track/formacao-ruby-developer)
