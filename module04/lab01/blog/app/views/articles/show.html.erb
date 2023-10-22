@@ -1,0 +1,17 @@
+<h1><%= @article.title %></h1>
+<p><%= @article.body %></p>
+
+<ul>
+  <li><%= link_to "Edit", edit_article_path(@article) %></li>
+  </br>
+  <li><%= link_to "Destroy",
+          article_path(@article),
+          data: {
+                  turbo_method: :delete,
+                  turbo_confirm: "Tem certeza que deseja excluir esse artigo?"
+                } 
+      %>
+  </li>
+  </br>
+  <li><%= link_to "Articles", articles_path %></li>
+</ul>
